@@ -6,9 +6,9 @@ const LANDING_URL = 'landing.html'
 
 
 if (userAgent.includes('iPhone') || userAgent.includes('iPad')) {
-    window.location.replace(IOS_URL);
+    window.location.href = IOS_URL;
 } else if (userAgent.includes('Android')) {
-    window.location.replace(ANDROID_URL);
+    window.location.href = ANDROID_URL;
 } else {
-    window.location.replace(LANDING_URL);
+    window.location.href = LANDING_URL;
 }
