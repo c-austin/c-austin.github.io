@@ -1,6 +1,6 @@
 const userAgent = navigator.userAgent;
-const ANDROID_URL = 'https://android.android'
-const IOS_URL = 'https://ios.ios'
+const RAW_ANDROID_URL = 'https://ar-works.s3.ca-central-1.amazonaws.com/Test_Gazebo_01.glb'
+const IOS_URL = 'https://ar-works.s3.ca-central-1.amazonaws.com/Test_Gazebo_01.usdz'
 const LANDING_URL = 'landing.html'
 
 if (userAgent.includes('iPhone') || userAgent.includes('iPad')) {
