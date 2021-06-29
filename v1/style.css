@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    background-color: #181818;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+#title {
+    font-size: 36px;
+    text-align: center;
+}
+
+#artist {
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+}
+
+#instructions {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 12px;
+}
+
+.button-container {
+    padding-top: 48px;
+}
+
+.link-button {
+    font-size: 48px;
+    color: white;
+    background-color: #363636;
+    padding: 15px 25px;
+    text-decoration: none;
+}
