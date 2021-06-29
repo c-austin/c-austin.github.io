@@ -10,26 +10,38 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
   }
   
   .demo {
     width: 75%;
-    margin-top: 24px;
+    padding-top: 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #080808;
+    height: 100%;
   }
   
   h3 {
     font-size: 48px;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
+    text-align: center;
   }
   
   h5 {
     font-size: 32px;
     margin-top: 16px;
     margin-bottom: 32px;
+  }
+
+  h6 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+    max-width: 75%;
   }
   
   .img-container {
